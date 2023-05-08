@@ -1,0 +1,22 @@
+#contact{
+    background: #fff;
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .box{
+            padding: 0 30px;
+            flex-basis: 33%;
+            text-align: center;
+            i {
+                font-size: 50px;
+                color: crimson;
+                margin-bottom: 25px;
+              }
+              p{
+                  margin: 0;
+              }
+        }
+    }
+}
